@@ -1,0 +1,25 @@
+.align-left{
+    text-align: left !important;
+}
+.about{
+    width: 950px;
+    /* margin-left: 35px; */
+}
+.bold-600{
+    font-weight: 600;
+}
+ul.social li a:before{
+    background-color: #fff;
+}
+.mar-bot{
+  margin-bottom: 0.8em;  
+}
+.mar-bot-m{
+    margin-bottom: 1.3em !important;  
+  }
+  .size-adjust{
+    height: 490px;
+  }
+  .size-adjust img{
+    object-fit: contain;
+  }
