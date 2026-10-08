@@ -35,6 +35,14 @@ npm run build
 
 The production site is written to `build/`.
 
+## Deploy
+
+```bash
+npm run deploy
+```
+
+Builds the site and publishes it to the `gh-pages` branch, which GitHub Pages serves at [naveedeveloper.github.io](https://naveedeveloper.github.io).
+
 ## Credits
 
 Based on the open-source [React Portfolio Template](https://github.com/yujisatojr/react-portfolio-template) by Yuji Sato (MIT).
