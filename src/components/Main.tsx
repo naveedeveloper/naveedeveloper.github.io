@@ -1,7 +1,8 @@
 import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WaveBackground from './WaveBackground';
+import avatar from '../assets/images/avatar.jpg';
 import '../assets/styles/Main.scss';
 
 type Props = {
@@ -15,19 +16,19 @@ function Main({ mode }: Props) {
       <div className="about-section">
         <WaveBackground mode={mode} />
         <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
+          <img src={avatar} alt="Tayyub Naveed" />
         </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://www.linkedin.com/in/tayyub-naveed" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon/></a>
+            <a href="mailto:tayyub.naveed.ml@gmail.com" aria-label="Email"><EmailIcon/></a>
           </div>
-          <h1>Yuji Sato</h1>
-          <p>Full Stack Engineer</p>
+          <h1>Tayyub Naveed</h1>
+          <p>Machine Learning Engineer</p>
 
           <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://www.linkedin.com/in/tayyub-naveed" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon/></a>
+            <a href="mailto:tayyub.naveed.ml@gmail.com" aria-label="Email"><EmailIcon/></a>
           </div>
         </div>
       </div>

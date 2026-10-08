@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -16,51 +16,45 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Jun 2023 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Machine Learning Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Machine Learning 1 Limited · Lahore, Pakistan</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              AI-powered KYC validation with Gemini and Document AI, RAG-based support chatbot, fine-tuned DistilBERT query routing, open-source LLM benchmarking
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Jan 2022 - Dec 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Machine Learning Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Shufti · Remote</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              KYC computer vision (93% to 98% accuracy), MetaUAS anomaly detection across 2,716 document classes, ONNX/OpenVINO optimization saving $4,000/month, MLflow for 90+ models
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            className="vertical-timeline-element--education"
+            date="2019 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
+            <h3 className="vertical-timeline-element-title">BS Computer Science</h3>
+            <h4 className="vertical-timeline-element-subtitle">FAST - National University of Computer and Emerging Sciences · Islamabad</h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            className="vertical-timeline-element--education"
+            date="2017 - 2019"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
-            </p>
+            <h3 className="vertical-timeline-element-title">F.Sc Pre-Engineering</h3>
+            <h4 className="vertical-timeline-element-subtitle">Punjab College of Information and Technology · Rawalpindi</h4>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
